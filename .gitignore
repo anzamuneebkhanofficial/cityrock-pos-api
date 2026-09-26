@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.production
+!.env.example
+
+# Vercel & Deployment
+.vercel
+.claude-audit/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# File uploads & local temp
+uploads/
+scratch/
+.temp/
+
+# OS metadata
+.DS_Store
+Thumbs.db
